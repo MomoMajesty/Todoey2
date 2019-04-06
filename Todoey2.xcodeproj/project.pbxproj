@@ -8,9 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		FACB65A622568F3E00EBCEC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB65A522568F3E00EBCEC6 /* AppDelegate.swift */; };
-		FACB65A822568F3E00EBCEC6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB65A722568F3E00EBCEC6 /* ViewController.swift */; };
+		FACB65A822568F3E00EBCEC6 /* ToDoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB65A722568F3E00EBCEC6 /* ToDoListViewController.swift */; };
 		FACB65AB22568F3E00EBCEC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FACB65A922568F3E00EBCEC6 /* Main.storyboard */; };
-		FACB65AE22568F3E00EBCEC6 /* Todoey2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FACB65AC22568F3E00EBCEC6 /* Todoey2.xcdatamodeld */; };
 		FACB65B022568F3F00EBCEC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FACB65AF22568F3F00EBCEC6 /* Assets.xcassets */; };
 		FACB65B322568F3F00EBCEC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FACB65B122568F3F00EBCEC6 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -18,9 +17,8 @@
 /* Begin PBXFileReference section */
 		FACB65A222568F3E00EBCEC6 /* Todoey2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todoey2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FACB65A522568F3E00EBCEC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FACB65A722568F3E00EBCEC6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FACB65A722568F3E00EBCEC6 /* ToDoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListViewController.swift; sourceTree = "<group>"; };
 		FACB65AA22568F3E00EBCEC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FACB65AD22568F3E00EBCEC6 /* Todoey2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Todoey2.xcdatamodel; sourceTree = "<group>"; };
 		FACB65AF22568F3F00EBCEC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FACB65B222568F3F00EBCEC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FACB65B422568F3F00EBCEC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -57,12 +55,11 @@
 			isa = PBXGroup;
 			children = (
 				FACB65A522568F3E00EBCEC6 /* AppDelegate.swift */,
-				FACB65A722568F3E00EBCEC6 /* ViewController.swift */,
+				FACB65A722568F3E00EBCEC6 /* ToDoListViewController.swift */,
 				FACB65A922568F3E00EBCEC6 /* Main.storyboard */,
 				FACB65AF22568F3F00EBCEC6 /* Assets.xcassets */,
 				FACB65B122568F3F00EBCEC6 /* LaunchScreen.storyboard */,
 				FACB65B422568F3F00EBCEC6 /* Info.plist */,
-				FACB65AC22568F3E00EBCEC6 /* Todoey2.xcdatamodeld */,
 			);
 			path = Todoey2;
 			sourceTree = "<group>";
@@ -138,9 +135,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FACB65A822568F3E00EBCEC6 /* ViewController.swift in Sources */,
+				FACB65A822568F3E00EBCEC6 /* ToDoListViewController.swift in Sources */,
 				FACB65A622568F3E00EBCEC6 /* AppDelegate.swift in Sources */,
-				FACB65AE22568F3E00EBCEC6 /* Todoey2.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,19 +334,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		FACB65AC22568F3E00EBCEC6 /* Todoey2.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				FACB65AD22568F3E00EBCEC6 /* Todoey2.xcdatamodel */,
-			);
-			currentVersion = FACB65AD22568F3E00EBCEC6 /* Todoey2.xcdatamodel */;
-			path = Todoey2.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = FACB659A22568F3E00EBCEC6 /* Project object */;
 }
